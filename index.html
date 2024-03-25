@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS IN HTML</title>
+</head>
+
+<body>
+    <form action="" method="get" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        <label for="mobile">Mobile number:</label>
+        <input type="mobile" id="mobile" name="mobile" placeholder="12367090">
+        <br>
+        <label for="email">Email Adress:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="Bio">Bio:</label>
+        <textarea id="bio" name="bio" rows="10" cols="30">
+    Please type in your bio here.....
+   </textarea>
+        <br>
+        <input type="checkbox" id="math" name="math" value="math">
+        <label for="math">Math</label>
+        <br>
+        <input type="checkbox" id="english" name="english" value="english">
+        <label for="english">English</label>
+        <br>
+        <input type="checkbox" id="geography" name="geography" value="geography">
+        <label for="geography">Geography</label>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="name" name="gender" value="Male">
+            <label>Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br>
+        <label for="lesson"> Lesson location</label>
+        <select id="lesson" name="lesson" multiple>
+            <option value=""></option>
+            <option value="Online">Online</option>
+            <option value="Physical">Physical</option>
+        </select>
+        <br>
+        <label for="passport_photo">Passport</label>
+        <input type="file" id="passport_photo" name="passport_photo" accept=".doc, .docx, .pdf">
+        <hr>
+        <input type="button" id="ok" name="ok" value="ok">
+        <br>
+        <input type="reset" id="reset" name="reset" value="Reset">
+        <input type="submit" id="submit" name="submit" value="Submit">
+    </form>
+</body>
+
+</html>
